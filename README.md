@@ -32,6 +32,9 @@ end
 df |> mutate(:a, x -> x[:a] ^ x[:b] - x[:c]) 
 ```
 
+### Other better maintained packages have been developed
 But my efforts are not nearly as effective or complete as those developed for the DataFramesMeta package.
 
 [DataFramesMeta.jl](https://github.com/JuliaData/DataFramesMeta.jl)
+
+[Queryverse - Query.jl](https://www.queryverse.org/)
